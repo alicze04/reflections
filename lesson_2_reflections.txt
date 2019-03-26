@@ -12,3 +12,8 @@ If there is something different or experimental to add. F.ex, different language
 4. How do the diagrams help you visualize the branch structure?
 
 It's easier to see. We can additional remote branches somebody else has added and when.
+
+5. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+If somebody was working on a different, side branch and now wants to add it to the main, master branch or if we were working on sth experimental and we want it to us it and put that extra work into the main, master branch.
+Also when we merge two branches we have access to all of the commits made in those two branches. 
