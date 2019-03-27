@@ -17,3 +17,7 @@ It's easier to see. We can additional remote branches somebody else has added an
 
 If somebody was working on a different, side branch and now wants to add it to the main, master branch or if we were working on sth experimental and we want it to us it and put that extra work into the main, master branch.
 Also when we merge two branches we have access to all of the commits made in those two branches. 
+
+6. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Sometimes when two different people changed one file on a merged branch, we don't know which version to keep, thats why git asks us to choose which change to keep. 
