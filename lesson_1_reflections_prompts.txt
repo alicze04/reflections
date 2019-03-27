@@ -6,6 +6,28 @@ Comparing line by line instead of reading the whole document from the top to the
 
 To see the progreess we have made with the code. To be able to come back to the previous version if we want to. When we break something in the new version we can come back to the old version easily.
 
-8.Now that you have your workspace set up, what do you want to try using Git for?
+3. How can you use the commands git log and git diff to view the history of files?
 
-Save the logical parts of the in code while I'm working on it.
+Git log we can use to see what changes have been introduced to each commit. We can see the history of por project and any logical changes we have commited. Git diff to see the difference between different commits, f.ex to find where a bug was introduced.
+
+4. How might using version control make you more confident to make changes that could break something?
+
+You can always go back to a previous version of your projects by checking out any commits and reverse the changes you don't want. You can always go back to any stage of your project.
+
+5. Now that you have your workspace set up, what do you want to try using Git for?
+
+To save any changes I made to my projects and break them up into logical parts. To be able to come back to them any time I want.
+
+6. What happens when you initialize a repository? Why do you need to do it?
+
+You need to initialize a repository for GIT to start tracking your files.
+
+7. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+You can add any changes to the staging area and keep them there until you are sure you want to commit them.
+
+
+
+
+
+
