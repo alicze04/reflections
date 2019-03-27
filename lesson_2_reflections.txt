@@ -1,23 +1,24 @@
+
 1. What happens when you initialize a repository? Why do you need to do it?
-For the git to start tracking the folders and any changed in them.
+
+For GIT to start tracking your working folder and any changes you have made to the files.
 
 2. How can you use the staging area to make sure you have one commit per logical change?
 
-You can see the changes you have made, comparing the working directory to the staging area and see if the change is logical.
+You can see changes you have made by comparing the working directory to the staging area and see if the changes are organized logically.
 
 3. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-If there is something different or experimental to add. F.ex, different language version of a program or an app we are writing.
+If there is something different or experimental to add to our project eg. a different language version of a program or an app we are working on but we are not sure if we want to use them in future or add them to the main project, we can create a side branch and work on the experimental bit from there, without affecting our master branch. 
 
 4. How do the diagrams help you visualize the branch structure?
 
-It's easier to see. We can additional remote branches somebody else has added and when.
+It's easier and more clear to understand. You can see your project in a linear way. Also if you want to merge any side branches into a master branch, it helps to have a diagram to be able visualize it better. With 'git log --graph we can also see any additional remote branches somebody else has added to the project. 
 
 5. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-If somebody was working on a different, side branch and now wants to add it to the main, master branch or if we were working on sth experimental and we want it to us it and put that extra work into the main, master branch.
-Also when we merge two branches we have access to all of the commits made in those two branches. 
+If we were working on something extra or experimental on a side branch and wanted to add it to the main project, we would have to merge it into a master branch so that the master branch has access to all the commits we have made to our side project, and so that our side project has access to the history and all the commits made to a master branch.  
 
 6. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
-Sometimes when two different people changed one file on a merged branch, we don't know which version to keep, thats why git asks us to choose which change to keep. 
+It can happen that two different people have made different changes to the same file on a merged branch, and we don't know which version to keep when merging. Git asks us to choose which one of the changes to keep. 
