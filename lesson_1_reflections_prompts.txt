@@ -4,23 +4,23 @@ Comparing line by line instead of reading the whole document from the top to the
 
 2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
-To see the progreess we have made with the code. To be able to come back to the previous version if we want to. When we break something in the new version we can come back to the old version easily.
+To be able to come back to the previous version if we wanted to. When we break something in the new version we can come back to the old version easily. To see the progreess we have made since we have started writing the code. 
 
 3. How can you use the commands git log and git diff to view the history of files?
 
-Git log we can use to see what changes have been introduced to each commit. We can see the history of por project and any logical changes we have commited. Git diff to see the difference between different commits, f.ex to find where a bug was introduced.
+We can use 'git log' command to see what changes have been introduced. We can see the history of the project and any logical changes we have commited. We can use'Git diff'(commits ID's) to find a file where a bug was introduced.
 
 4. How might using version control make you more confident to make changes that could break something?
 
-You can always go back to a previous version of your projects by checking out any commits and reverse the changes you don't want. You can always go back to any stage of your project.
+You can always go back to a previous version of your projects by checking out any commits and reverse any changes you don't want to keep. You can always go back to any stage of your project.
 
 5. Now that you have your workspace set up, what do you want to try using Git for?
 
-To save any changes I made to my projects and break them up into logical parts. To be able to come back to them any time I want.
+To save any changes I made to my projects and break them up into logical parts. To be able to come back to them any time I want. To be able to find a bug in code if it appears.
 
 6. What happens when you initialize a repository? Why do you need to do it?
 
-You need to initialize a repository for GIT to start tracking your files.
+You need to initialize a repository for GIT to start tracking your files and for you to be able to make commits with logical changes to the project.
 
 7. How is the staging area different from the working directory and the repository? What value do you think it offers?
 
